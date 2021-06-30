@@ -142,6 +142,7 @@
       },
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.xr.oculus.standalone": {
       "version": "2.38.4",
       "depth": 0,
@@ -156,6 +157,8 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> main
     "com.unity.xr.windowsmr.metro": {
       "version": "4.2.3",
       "depth": 0,
