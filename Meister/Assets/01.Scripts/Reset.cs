@@ -5,7 +5,7 @@ using UnityEngine;
 public class Reset : MonoBehaviour
 {
     public GameObject[] jangGis;
-
+    
     public Transform[] originPos;
 
     void Start()

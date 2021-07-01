@@ -13,6 +13,13 @@ namespace Microsoft.MixedReality.Toolkit.UI
     [AddComponentMenu("Scripts/MRTK/SDK/ToolTipSpawner")]
     public class ToolTipSpawner : PrefabSpawner
     {
+        public static ToolTipSpawner Instance;
+
+        void Start()
+        {
+            Instance = this;
+        }
+
         private enum SettingsMode
         {
             UseDefaults = 0,

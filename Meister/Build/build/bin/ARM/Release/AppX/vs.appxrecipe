@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-BRDAH12</Machine>
+    <WindowsUser>FX516</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>d4c6950c-5d10-4e22-827c-ad521e161015</PackageIdentityName>
+    <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\build\obj\Meister\ARM\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\build\bin\ARM\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>E0A08CD268EDA444FA32EFC3CAD9A053ED9084362FFFBBFCF111595AEF50CDD3</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>Meister_1.0.0.0_arm__pzq3xp76mxafg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>Meister_pzq3xp76mxafg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>Meister</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=DefaultCompany</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\build\bin\ARM\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-01T04:55:04.325</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\build\bin\ARM\Release\Meister.exe">
+      <PackagePath>Meister.exe</PackagePath>
+      <Modified>2021-07-01T04:55:03.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2019.4.28f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM\Release\UnityPlayer.winmd">
+      <PackagePath>UnityPlayer.winmd</PackagePath>
+      <Modified>2021-05-29T04:14:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2019.4.28f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM\Release\UnityPlayer.dll">
+      <PackagePath>UnityPlayer.dll</PackagePath>
+      <Modified>2021-05-29T04:14:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\build\bin\ARM\Release\Meister.winmd">
+      <PackagePath>Meister.winmd</PackagePath>
+      <Modified>2021-06-30T02:53:36.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-29T03:17:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-29T03:17:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-29T03:17:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-29T03:17:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-29T03:17:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-29T03:17:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-29T03:17:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\StoreManifest.xml">
+      <PackagePath>StoreManifest.xml</PackagePath>
+      <Modified>2021-07-01T04:32:23.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\mconfig\config.xml">
+      <PackagePath>Data\il2cpp_data\etc\mono\mconfig\config.xml</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\boot.config">
+      <PackagePath>Data\boot.config</PackagePath>
+      <Modified>2021-07-01T04:32:19.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\2.0\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\machine.config</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\2.0\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\web.config</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\4.0\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\machine.config</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\4.0\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\web.config</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\4.5\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\machine.config</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\4.5\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\web.config</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\globalgamemanagers">
+      <PackagePath>Data\globalgamemanagers</PackagePath>
+      <Modified>2021-07-01T04:31:30.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\level0">
+      <PackagePath>Data\level0</PackagePath>
+      <Modified>2021-07-01T04:31:27.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\config">
+      <PackagePath>Data\il2cpp_data\etc\mono\config</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\Resources\unity default resources">
+      <PackagePath>Data\Resources\unity default resources</PackagePath>
+      <Modified>2021-05-29T03:17:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\Resources\unity_builtin_extra">
+      <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
+      <Modified>2021-07-01T04:32:19.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\globalgamemanagers.assets">
+      <PackagePath>Data\globalgamemanagers.assets</PackagePath>
+      <Modified>2021-07-01T04:31:30.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\resources.assets">
+      <PackagePath>Data\resources.assets</PackagePath>
+      <Modified>2021-07-01T04:31:33.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\sharedassets0.assets">
+      <PackagePath>Data\sharedassets0.assets</PackagePath>
+      <Modified>2021-07-01T04:32:12.378</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\level0.resS">
+      <PackagePath>Data\level0.resS</PackagePath>
+      <Modified>2021-07-01T04:31:27.738</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\resources.assets.resS">
+      <PackagePath>Data\resources.assets.resS</PackagePath>
+      <Modified>2021-07-01T04:31:33.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\sharedassets0.assets.resS">
+      <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
+      <Modified>2021-07-01T04:32:12.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\nativePlugins.txt">
+      <PackagePath>Data\nativePlugins.txt</PackagePath>
+      <Modified>2021-07-01T04:33:19.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\sharedassets0.resource">
+      <PackagePath>Data\sharedassets0.resource</PackagePath>
+      <Modified>2021-07-01T04:32:12.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\browscap.ini">
+      <PackagePath>Data\il2cpp_data\etc\mono\browscap.ini</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\2.0\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\settings.map</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\4.0\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\settings.map</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\4.5\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\settings.map</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser</PackagePath>
+      <Modified>2021-05-29T03:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\Metadata\global-metadata.dat">
+      <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
+      <Modified>2021-07-01T04:33:10.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
+      <Modified>2021-07-01T04:32:39.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
+      <Modified>2021-07-01T04:32:39.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\Meister\AudioPluginMsHRTF.dll">
+      <PackagePath>AudioPluginMsHRTF.dll</PackagePath>
+      <Modified>2020-06-02T13:37:15.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\build\bin\ARM\Release\GameAssembly.dll">
+      <PackagePath>GameAssembly.dll</PackagePath>
+      <Modified>2021-07-01T04:55:00.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\FX516\Documents\GitHub\Meister\Meister\Build\build\bin\ARM\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-07-01T04:55:04.169</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -8,9 +8,12 @@ public class GravityOn : MonoBehaviour
     public GameObject[] jangGi;
     public Transform[] pos;
     public bool startBtn;
+    public static GravityOn Instance;
 
     void Start()
     {
+        Instance = this;
+
         for (int i = 0; i < pos.Length; i++)
         {
             jangGi[i].GetComponent<Position>().enabled = false;
@@ -21,7 +24,6 @@ public class GravityOn : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            print("1번누름ㅋㅋㅋ");
             jangGi[0].transform.position = pos[0].position;
         }
     }
@@ -39,13 +41,24 @@ public class GravityOn : MonoBehaviour
         //jangGi.GetComponent<Rigidbody>().isKinematic = false;
         //jangGi.GetComponent<Rigidbody>().useGravity = true;
 
-        startBtn = true;
-
+        
         for(int i = 0; i < pos.Length; i++)
         {
-            print("됏음?");
             jangGi[i].GetComponent<Position>().enabled = true;
             jangGi[i].transform.SetPositionAndRotation(pos[i].position, pos[i].rotation);
         }
+
+        startBtn = true;
+
+        jangGi[0].GetComponent<Position>().enabled = false;
+        jangGi[1].GetComponent<Position>().enabled = false;
+        jangGi[2].GetComponent<Position>().enabled = false;
+        jangGi[3].GetComponent<Position>().enabled = false;
+        jangGi[4].GetComponent<Position>().enabled = false;
+        jangGi[5].GetComponent<Position>().enabled = false;
+        jangGi[13].GetComponent<Position>().enabled = false;
+        jangGi[14].GetComponent<Position>().enabled = false;
+
+
     }
 }
