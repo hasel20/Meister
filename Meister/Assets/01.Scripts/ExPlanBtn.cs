@@ -10,10 +10,10 @@ public class ExPlanBtn : MonoBehaviour
 
     void Start()
     {
-        for (int i = 0; i < tool.Length; i++)
-        {
+        //for (int i = 0; i < tool.Length; i++)
+        //{
 
-        }
+        //}
     }
 
     void Update()
