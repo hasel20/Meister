@@ -10270,8 +10270,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uC18C\uC7A5 - \uC791\uC740 \uCC3D\uC790\uB85C, \uC601\uC591\uBD84\uC744
-    \uC18C\uD654 \uD761\uC218\uD558\uB294 \uB3C4\uC640\uC8FC\uB294 \uC7A5\uAE30\uC785\uB2C8\uB2E4."
+  toolTipText: Small Intestine
   anchor: {fileID: 0}
 --- !u!1 &35788252424411161
 GameObject:
@@ -10482,9 +10481,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uB2E4\uB9AC \uBF08 - \uB2E4\uB9AC\uC758 \uACE8\uACA9\uC744 \uC774\uB8E8\uACE0,
-    \uC0C1\uCCB4\uC758 \uBB34\uAC8C\uB97C \uC544\uB798\uB85C \uC804\uB2EC\uD558\uBA70
-    \uACE8\uBC18 \uB0B4 \uC7A5\uAE30\uB97C \uBCF4\uD638\uD569\uB2C8\uB2E4."
+  toolTipText: Bones of the Leg
   anchor: {fileID: 0}
 --- !u!33 &51911482322671184
 MeshFilter:
@@ -10725,8 +10722,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uC190 \uBF08 - \uC190\uBAA9 \uAD00\uC808\uACFC \uC190\uBC14\uB2E5,
-    \uC190\uAC00\uB77D\uC744 \uAD6C\uC131\uD569\uB2C8\uB2E4."
+  toolTipText: Bones of the Hand
   anchor: {fileID: 0}
 --- !u!1 &643591260014544508
 GameObject:
@@ -10937,9 +10933,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uD314 \uBF08 - \uD314\uAFC9 \uAD00\uC808\uB97C \uAE30\uC900\uC73C\uB85C
-    \uD55C \uBC29\uD5A5\uC73C\uB85C\uB9CC \uAD7D\uD798, \uD3C4, \uD68C\uC804 \uC6B4\uB3D9\uC774
-    \uAC00\uB2A5\uD569\uB2C8\uB2E4."
+  toolTipText: Bones of the Arm
   anchor: {fileID: 0}
 --- !u!1 &732256625401687118
 GameObject:
@@ -11150,8 +11144,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uBC1C \uBF08 -  \uCCB4\uC911\uC744 \uC9C0\uD0F1\uD558\uACE0 \uCDA9\uACA9\uC744
-    \uD761\uC218\uD558\uC5EC, \uBCF4\uD589\uC5D0 \uB3C4\uC6C0\uC744 \uC900\uB2E4"
+  toolTipText: Bones of the Foot
   anchor: {fileID: 0}
 --- !u!33 &807735913521649473
 MeshFilter:
@@ -11448,9 +11441,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uC704 - \uC704\uC561\uC744 \uBD84\uBE44\uD558\uC5EC \uC74C\uC2DD\uBB3C\uC744
-    \uBD84\uD574\uD558\uC5EC \uC18C\uD654\uB97C \uB3C4\uC640\uC8FC\uB294 \uAE30\uB2A5\uC744
-    \uD569\uB2C8\uB2E4"
+  toolTipText: Stomach
   anchor: {fileID: 0}
 --- !u!23 &1374374668278474876
 MeshRenderer:
@@ -11703,10 +11694,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uB300\uC7A5 - \uD070 \uCC3D\uC790\uB85C, \uC18C\uD654\uACC4\uC758
-    \uCD5C\uC885 \uACFC\uC815\uC744 \uB2F4\uB2F9\uD558\uB294 \uC18C\uD654 \uAE30\uAD00,
-    \uC218\uBD84 \uD761\uC218\uC640 \uB300\uBCC0\uC758 \uBC30\uCD9C\uC744 \uB3C4\uC640\uC8FC\uB294
-    \uAE30\uB2A5\uC744 \uD569\uB2C8\uB2E4. "
+  toolTipText: Large Intestine
   anchor: {fileID: 0}
 --- !u!4 &1614186322206795036
 Transform:
@@ -11984,8 +11972,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uC190 \uBF08 - \uC190\uBAA9 \uAD00\uC808\uACFC \uC190\uBC14\uB2E5,
-    \uC190\uAC00\uB77D\uC744 \uAD6C\uC131\uD569\uB2C8\uB2E4."
+  toolTipText: Bones of the Hand
   anchor: {fileID: 0}
 --- !u!4 &2094366617212071488
 Transform:
@@ -12343,9 +12330,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uD314 \uBF08 - \uD314\uAFC9 \uAD00\uC808\uB97C \uAE30\uC900\uC73C\uB85C
-    \uD55C \uBC29\uD5A5\uC73C\uB85C\uB9CC \uAD7D\uD798, \uD3C4, \uD68C\uC804 \uC6B4\uB3D9\uC774
-    \uAC00\uB2A5\uD569\uB2C8\uB2E4."
+  toolTipText: Bones of the Arm
   anchor: {fileID: 0}
 --- !u!4 &2791164898838924154
 Transform:
@@ -12573,10 +12558,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uAC08\uBE44\uBF08 - \uAC00\uC2B4\uBD80\uC704\uB97C \uC774\uB8E8\uB294
-    \uD65C \uBAA8\uC591\uC758 \uBF08\uB85C, \uAC00\uC2B4 \uC7A5\uAE30\uB4E4\uC744
-    \uBCF4\uD638\uD558\uACE0 \uAC00\uC2B4\uC6B0\uB9AC\uC758 \uD33D\uCC3D\uACFC \uC218\uCD95\uC73C\uB85C
-    \uD638\uD761\uC744 \uB3C4\uC640\uC90D\uB2C8\uB2E4."
+  toolTipText: Ribs
   anchor: {fileID: 0}
 --- !u!1 &2866657848196360283
 GameObject:
@@ -12790,8 +12772,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uACE8\uBC18 \uBF08 - \uCCB4\uC911\uC744 \uC9C0\uD0F1\uD558\uACE0
-    \uAC77\uB294 \uAC83\uC744 \uAC00\uB2A5\uD558\uAC8C \uD569\uB2C8\uB2E4."
+  toolTipText: Pelvis
   anchor: {fileID: 0}
 --- !u!4 &2874381903842274263
 Transform:
@@ -13019,10 +13000,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uC2EC\uC7A5 - \uC6B0\uB9AC \uBAB8\uC5D0\uC11C \uD38C\uD504\uC640
-    \uAC19\uC740 \uC791\uC6A9\uC744 \uD558\uB294 \uAE30\uAD00\uC73C\uB85C \uB04A\uC784\uC5C6\uC774
-    \uD608\uC561\uC744 \uBC1B\uC544\uB4E4\uC774\uACE0 \uB0B4\uBCF4\uB0B4\uBA74\uC11C
-    \uC628 \uBAB8\uC73C\uB85C \uC774\uB3D9\uC2DC\uD0B5\uB2C8\uB2E4."
+  toolTipText: Heart
   anchor: {fileID: 0}
 --- !u!33 &3782212493727688876
 MeshFilter:
@@ -13431,8 +13409,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uD3D0 - \uD638\uD761\uC744 \uB3C4\uC640\uC8FC\uB294 \uACF5\uAE30\uC8FC\uBA38\uB2C8
-    \uC5ED\uD560\uC744 \uD569\uB2C8\uB2E4."
+  toolTipText: Lung
   anchor: {fileID: 0}
 --- !u!33 &4702134544821003270
 MeshFilter:
@@ -13701,8 +13678,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uAC04 - \uBAB8 \uC18D\uC758 \uBAA8\uB4E0 \uAC83\uC744 \uD574\uB3C5\uD558\uB294
-    \uAE30\uB2A5\uC744 \uD569\uB2C8\uB2E4."
+  toolTipText: Liver
   anchor: {fileID: 0}
 --- !u!23 &4912576754682277052
 MeshRenderer:
@@ -14061,8 +14037,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uB450\uAC1C\uACE8 -  \uC5BC\uAD74\uC744 \uAD6C\uC131\uD558\uACE0
-    \uB1CC\uAC00 \uB4E4\uC5B4\uC788\uB294 \uBA38\uB9AC\uBF08\uACF5\uAC04\uC744 \uBCF4\uD638\uD55C\uB2E4"
+  toolTipText: Skull
   anchor: {fileID: 0}
 --- !u!114 &5494507677641293979
 MonoBehaviour:
@@ -14559,10 +14534,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uB4B7 \uAC08\uBE44\uBF08 - \uAC00\uC2B4\uBD80\uC704\uB97C \uC774\uB8E8\uB294
-    \uD65C \uBAA8\uC591\uC758 \uBF08\uB85C, \uAC00\uC2B4 \uC7A5\uAE30\uB4E4\uC744
-    \uBCF4\uD638\uD558\uACE0 \uAC00\uC2B4\uC6B0\uB9AC\uC758 \uD33D\uCC3D\uACFC \uC218\uCD95\uC73C\uB85C
-    \uD638\uD761\uC744 \uB3C4\uC640\uC90D\uB2C8\uB2E4."
+  toolTipText: Back Ribs
   anchor: {fileID: 0}
 --- !u!23 &8029756366255968974
 MeshRenderer:
@@ -14951,8 +14923,7 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uBC1C \uBF08 -  \uCCB4\uC911\uC744 \uC9C0\uD0F1\uD558\uACE0 \uCDA9\uACA9\uC744
-    \uD761\uC218\uD558\uC5EC, \uBCF4\uD589\uC5D0 \uB3C4\uC6C0\uC744 \uC900\uB2E4"
+  toolTipText: Bones of the Foot
   anchor: {fileID: 0}
 --- !u!33 &8887683394672257315
 MeshFilter:
@@ -15185,7 +15156,5 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1.5, z: 0}
   pivotDistance: 0.25
-  toolTipText: "\uB2E4\uB9AC \uBF08 - \uB2E4\uB9AC\uC758 \uACE8\uACA9\uC744 \uC774\uB8E8\uACE0,
-    \uC0C1\uCCB4\uC758 \uBB34\uAC8C\uB97C \uC544\uB798\uB85C \uC804\uB2EC\uD558\uBA70
-    \uACE8\uBC18 \uB0B4 \uC7A5\uAE30\uB97C \uBCF4\uD638\uD569\uB2C8\uB2E4."
+  toolTipText: Bones of the Leg
   anchor: {fileID: 0}
