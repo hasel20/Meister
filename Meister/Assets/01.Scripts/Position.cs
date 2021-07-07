@@ -9,15 +9,31 @@ public class Position : MonoBehaviour
     public Vector3 originPos;
     public Quaternion originRot;
 
-    public GameObject[] collisionS;
-    public GameObject[] byeS;
+    public Vector3 robotOriPos;
+    public Quaternion robotOriRot;
+
+    //public GameObject[] collisionS;
+    //public GameObject[] byeS;
 
     bool complete;
 
     void Awake()
     {
-        originPos = transform.position;
-        originRot = transform.rotation;
+        //originPos = transform.position;
+        //originRot = transform.rotation;
+
+        if (GravityOn.Instance.selectJangGi)
+        {
+            print("장기");
+            originPos = transform.position;
+            originRot = transform.rotation;
+        }
+        if (GravityOn.Instance.selectRobot)
+        {
+            print("로봇");
+            robotOriPos = transform.position;
+            robotOriRot = transform.rotation;
+        }
 
         complete = false;
     }
@@ -34,15 +50,46 @@ public class Position : MonoBehaviour
 
     public void PosGo()
     {
-        if (Vector3.Distance(transform.position, originPos) <= 0.1f )
-        {
-            print("합체!!!");
-            transform.position = originPos;
-            transform.rotation = originRot;
-            GetComponent<Rigidbody>().isKinematic = true;
+        //if (Vector3.Distance(transform.position, originPos) <= 0.1f)
+        //{
+        //    print("장기합체!!!");
+        //    transform.position = originPos;
+        //    transform.rotation = originRot;
 
-            complete = true;
+        //    GetComponent<Rigidbody>().isKinematic = true;
+
+        //    complete = true;
+        //}
+
+        if (GravityOn.Instance.selectJangGi)
+        {
+            if (Vector3.Distance(transform.position, originPos) <= 0.1f)
+            {
+                print("장기합체!!!");
+                transform.position = originPos;
+                transform.rotation = originRot;
+
+                GetComponent<Rigidbody>().isKinematic = true;
+
+                complete = true;
+            }
         }
+        if (GravityOn.Instance.selectRobot)
+        {
+            print("띠로리");
+            if (Vector3.Distance(transform.position, robotOriPos) <= 0.1f)
+            {
+                print("로봇합체!!!");
+
+                transform.position = robotOriPos;
+                transform.rotation = robotOriRot;
+
+                GetComponent<Rigidbody>().isKinematic = true;
+
+                complete = true;
+            }
+        }
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -89,6 +136,43 @@ public class Position : MonoBehaviour
         {
             other.gameObject.SetActive(false);
         }
+        else if (other.gameObject.tag == "Arm.L" && this.gameObject.name == "Arm.L")
+        {
+            other.gameObject.SetActive(false);
+        }
+        else if (other.gameObject.tag == "Arm" && this.gameObject.name == "Arm.R")
+        {
+            other.gameObject.SetActive(false);
+        }
+        else if (other.gameObject.tag == "Foot.L" && this.gameObject.name == "Foot.L")
+        {
+            other.gameObject.SetActive(false);
+        }
+        else if (other.gameObject.tag == "Foot" && this.gameObject.name == "Foot.R")
+        {
+            other.gameObject.SetActive(false);
+        }
+        else if (other.gameObject.tag == "Foot.L" && this.gameObject.name == "Foot.L")
+        {
+            other.gameObject.SetActive(false);
+        }
+        else if (other.gameObject.tag == "Foot" && this.gameObject.name == "Foot.R")
+        {
+            other.gameObject.SetActive(false);
+        }
+        else if (other.gameObject.tag == "Leg.L" && this.gameObject.name == "Leg.L")
+        {
+            other.gameObject.SetActive(false);
+        }
+        else if (other.gameObject.tag == "Leg" && this.gameObject.name == "Leg.R")
+        {
+            other.gameObject.SetActive(false);
+        }
+
+        //else if (other.gameObject.tag == "Rhead" && (this.gameObject.name == "robot_head" && this.gameObject.name == "robot_head1"))
+        //{
+        //    other.gameObject.SetActive(false);
+        //}
     }
 
     //private void OnTriggerEnter(Collider other)

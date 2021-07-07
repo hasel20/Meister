@@ -11,11 +11,12 @@ public class SamePos : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(GravityOn.Instance.startBtn == true)
+        if (GravityOn.Instance.startBtn == true)
         {
             if (other.CompareTag("Arm") && arm)
             {
                 print("팔충돌!");
+                print(other.name);
                 transform.SetPositionAndRotation(other.transform.position, other.transform.rotation);
                 GetComponent<Rigidbody>().isKinematic = true;
                 other.gameObject.SetActive(false);

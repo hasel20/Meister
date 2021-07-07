@@ -165,7 +165,7 @@ namespace Microsoft.MixedReality.Toolkit.UI
         public Vector3 LocalContentOffset => backgroundOffset;
 
         [SerializeField]
-        [Range(0.01f, 3f)]
+        [Range(0.01f, 200f)]
         [Tooltip("The scale of all the content (label, backgrounds, etc.)")]
         private float contentScale = 1f;
 
@@ -186,7 +186,7 @@ namespace Microsoft.MixedReality.Toolkit.UI
         }
 
         [SerializeField]
-        [Range(10, 60)]
+        [Range(1, 60)]
         [Tooltip("The font size of the tooltip.")]
         private int fontSize = 30;
 
