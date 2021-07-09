@@ -10,6 +10,7 @@ public class GravityOn : MonoBehaviour
     public GameObject jangMesh;
 
     public GameObject exPlBtn;
+    public GameObject animBtn;
 
     public GameObject[] robot;
     public Transform[] robotPos;
@@ -71,6 +72,7 @@ public class GravityOn : MonoBehaviour
         jangGi[18].gameObject.SetActive(false);
         jangGi[19].gameObject.SetActive(false);
         exPlBtn.SetActive(true);
+        animBtn.SetActive(true);
     }
     public void OnClickSelRo()
     {
@@ -79,6 +81,7 @@ public class GravityOn : MonoBehaviour
         showJang.SetActive(false);
         jangMesh.SetActive(false);
         exPlBtn.SetActive(false);
+        animBtn.SetActive(false);
 
         selectFerris = false;
         showFe.SetActive(false);
@@ -95,6 +98,7 @@ public class GravityOn : MonoBehaviour
         showJang.SetActive(false);
         jangMesh.SetActive(false);
         exPlBtn.SetActive(false);
+        animBtn.SetActive(false);
 
         selectRobot = false; 
         showRo.SetActive(false);

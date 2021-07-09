@@ -89,7 +89,6 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_InputModuleCodeGenModule
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TerrainModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TilemapModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UIElementsModuleCodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UNETModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityAnalyticsModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VFXModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VideoModuleCodeGenModule;
@@ -111,10 +110,9 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Servi
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_SpatialAwarenessSystemCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_TeleportSystemCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngineCodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_com_unity_multiplayerU2Dhlapi_RuntimeCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 extern const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[78] = 
+const Il2CppCodeGenModule* g_CodeGenModules[76] = 
 {
 	(&g_mscorlibCodeGenModule),
 	(&g_System_ConfigurationCodeGenModule),
@@ -170,7 +168,6 @@ const Il2CppCodeGenModule* g_CodeGenModules[78] =
 	(&g_UnityEngine_TerrainModuleCodeGenModule),
 	(&g_UnityEngine_TilemapModuleCodeGenModule),
 	(&g_UnityEngine_UIElementsModuleCodeGenModule),
-	(&g_UnityEngine_UNETModuleCodeGenModule),
 	(&g_UnityEngine_UnityAnalyticsModuleCodeGenModule),
 	(&g_UnityEngine_VFXModuleCodeGenModule),
 	(&g_UnityEngine_VideoModuleCodeGenModule),
@@ -192,7 +189,6 @@ const Il2CppCodeGenModule* g_CodeGenModules[78] =
 	(&g_Microsoft_MixedReality_Toolkit_Services_SpatialAwarenessSystemCodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_Services_TeleportSystemCodeGenModule),
 	(&g_UnityEngineCodeGenModule),
-	(&g_com_unity_multiplayerU2Dhlapi_RuntimeCodeGenModule),
 	(&g_AssemblyU2DCSharpCodeGenModule),
 };
 extern const Il2CppCodeRegistration g_CodeRegistration;
@@ -200,20 +196,20 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	2,
 	g_ReversePInvokeWrapperPointers,
-	47140,
+	41965,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	6013,
+	5456,
 	g_Il2CppInvokerPointers,
-	10684,
+	10120,
 	g_AttributeGenerators,
-	2888,
+	2587,
 	g_UnresolvedVirtualMethodPointers,
-	8747,
+	8072,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	78,
+	76,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
