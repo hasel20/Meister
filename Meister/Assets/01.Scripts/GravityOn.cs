@@ -9,8 +9,13 @@ public class GravityOn : MonoBehaviour
     public bool startBtn;
     public GameObject jangMesh;
 
+    public GameObject exPlBtn;
+
     public GameObject[] robot;
     public Transform[] robotPos;
+
+    public GameObject[] ferris;
+    public Transform[] feriPos;
 
     public GameObject menu;
     public GameObject custom;
@@ -18,9 +23,12 @@ public class GravityOn : MonoBehaviour
     public GameObject showJang;
     public GameObject showRo;
     public GameObject showRoBone;
+    public GameObject showFe;
+    public GameObject showFeMe;
 
     public bool selectJangGi;
     public bool selectRobot;
+    public bool selectFerris;
 
     public static GravityOn Instance;
 
@@ -28,7 +36,10 @@ public class GravityOn : MonoBehaviour
 
     void Start()
     {
-        Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+        }
 
         for (int i = 0; i < pos.Length; i++)
         {
@@ -46,23 +57,52 @@ public class GravityOn : MonoBehaviour
 
     public void OnClickSelJang()
     {
-        selectJangGi = true;
-        showJang.SetActive(true);
-
+        print("장기 온");
         selectRobot = false;
         showRo.SetActive(false);
         showRoBone.SetActive(false);
 
+        selectFerris = false;
+        showFe.SetActive(false);
+        showFeMe.SetActive(false);
+
+        selectJangGi = true;
+        showJang.SetActive(true);
+        jangGi[18].gameObject.SetActive(false);
+        jangGi[19].gameObject.SetActive(false);
+        exPlBtn.SetActive(true);
     }
     public void OnClickSelRo()
     {
-        selectRobot = true;
-        showRo.SetActive(true);
-        showRoBone.SetActive(true);
-
+        print("로봇 온");
         selectJangGi = false;
         showJang.SetActive(false);
         jangMesh.SetActive(false);
+        exPlBtn.SetActive(false);
+
+        selectFerris = false;
+        showFe.SetActive(false);
+        showFeMe.SetActive(false);
+
+        selectRobot = true;
+        showRo.SetActive(true);
+        showRoBone.SetActive(true);
+    }
+    public void OnClickSelFe()
+    {
+        print("대관람차 온");
+        selectJangGi = false;
+        showJang.SetActive(false);
+        jangMesh.SetActive(false);
+        exPlBtn.SetActive(false);
+
+        selectRobot = false; 
+        showRo.SetActive(false);
+        showRoBone.SetActive(false);
+
+        selectFerris = true;
+        showFe.SetActive(true);
+        //showFeMe.SetActive(true);
     }
 
     public void OnClickStart()
@@ -85,6 +125,8 @@ public class GravityOn : MonoBehaviour
                 jangGi[i].GetComponent<MeshCollider>().enabled = true;
                 jangGi[i].GetComponent<Position>().enabled = true;
                 jangGi[i].transform.position = pos[i].position;
+                jangGi[18].gameObject.SetActive(true);
+                jangGi[19].gameObject.SetActive(true);
             }
             jangMesh.SetActive(true);
         }
@@ -96,6 +138,17 @@ public class GravityOn : MonoBehaviour
                 robot[i].GetComponent<Position>().enabled = true;
                 //robot[i].transform.SetPositionAndRotation(robotPos[i].position, robotPos[i].rotation);
                 robot[i].transform.position = robotPos[i].position;
+            }
+        }
+        else if (selectFerris)
+        {
+            for (int i = 0; i < feriPos.Length; i++)
+            {
+                ferris[i].GetComponent<MeshCollider>().enabled = true;
+                ferris[i].GetComponent<Position>().enabled = true;
+                //ferris[i].transform.SetPositionAndRotation(feriPos[i].position, feriPos[i].rotation);
+                ferris[i].transform.position = feriPos[i].position;
+                showFeMe.SetActive(true);
             }
         }
         startBtn = true;

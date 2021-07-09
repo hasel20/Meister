@@ -10,6 +10,9 @@ public class Reset : MonoBehaviour
     public GameObject[] robot;
     public Transform[] originrobotPos;
 
+    public GameObject[] ferris;
+    public Transform[] oriFePos;
+
     void Start()
     {
         
@@ -32,13 +35,22 @@ public class Reset : MonoBehaviour
                 jangGis[i].GetComponent<Rigidbody>().isKinematic = true;
             }
         }
-        if(GravityOn.Instance.selectRobot)
+        else if(GravityOn.Instance.selectRobot)
         {
             for(int i = 0; i < originrobotPos.Length;i++)
             {
                 robot[i].transform.position = originrobotPos[i].position;
                 robot[i].transform.rotation = originrobotPos[i].rotation;
                 robot[i].GetComponent<Rigidbody>().isKinematic = true;
+            }
+        }
+        else if (GravityOn.Instance.selectFerris)
+        {
+            for (int i = 0; i < oriFePos.Length; i++)
+            {
+                ferris[i].transform.position = oriFePos[i].position;
+                ferris[i].transform.rotation = oriFePos[i].rotation;
+                ferris[i].GetComponent<Rigidbody>().isKinematic = true;
             }
         }
     }

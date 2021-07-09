@@ -12,6 +12,9 @@ public class Position : MonoBehaviour
     public Vector3 robotOriPos;
     public Quaternion robotOriRot;
 
+    public Vector3 ferrisOriPos;
+    public Quaternion ferrisOriRot;
+
     //public GameObject[] collisionS;
     //public GameObject[] byeS;
 
@@ -28,11 +31,17 @@ public class Position : MonoBehaviour
             originPos = transform.position;
             originRot = transform.rotation;
         }
-        if (GravityOn.Instance.selectRobot)
+        else if (GravityOn.Instance.selectRobot)
         {
             print("로봇");
             robotOriPos = transform.position;
             robotOriRot = transform.rotation;
+        }
+        else if (GravityOn.Instance.selectFerris)
+        {
+            print("대관람차");
+            ferrisOriPos = transform.position;
+            ferrisOriRot = transform.rotation;
         }
 
         complete = false;
@@ -70,21 +79,35 @@ public class Position : MonoBehaviour
                 transform.rotation = originRot;
 
                 GetComponent<Rigidbody>().isKinematic = true;
+                GetComponent<MeshCollider>().enabled = false;
 
                 complete = true;
             }
         }
-        if (GravityOn.Instance.selectRobot)
+        else if (GravityOn.Instance.selectRobot)
         {
-            print("띠로리");
             if (Vector3.Distance(transform.position, robotOriPos) <= 0.1f)
             {
                 print("로봇합체!!!");
-
                 transform.position = robotOriPos;
                 transform.rotation = robotOriRot;
 
                 GetComponent<Rigidbody>().isKinematic = true;
+                GetComponent<MeshCollider>().enabled = false;
+
+                complete = true;
+            }
+        }
+        else if (GravityOn.Instance.selectFerris)
+        {
+            if (Vector3.Distance(transform.position, ferrisOriPos) <= 0.1f)
+            {
+                print("관람차합체!!!");
+                transform.position = ferrisOriPos;
+                transform.rotation = ferrisOriRot;
+
+                GetComponent<Rigidbody>().isKinematic = true;
+                GetComponent<MeshCollider>().enabled = false;
 
                 complete = true;
             }
@@ -165,6 +188,43 @@ public class Position : MonoBehaviour
             other.gameObject.SetActive(false);
         }
         else if (other.gameObject.tag == "Leg" && this.gameObject.name == "Leg.R")
+        {
+            other.gameObject.SetActive(false);
+        }
+        //=================================================================================
+        if (other.gameObject.tag == "base" && this.gameObject.name == "Base")
+        {
+            other.gameObject.SetActive(false);
+        }
+        else if (other.gameObject.tag == "wheel" && this.gameObject.name == "Wheel")
+        {
+            other.gameObject.SetActive(false);
+        }
+        else if (other.gameObject.tag == "room01" && this.gameObject.name == "room01")
+        {
+            other.gameObject.SetActive(false);
+        }
+        else if (other.gameObject.tag == "room02" && this.gameObject.name == "room02")
+        {
+            other.gameObject.SetActive(false);
+        }
+        else if (other.gameObject.tag == "room03" && this.gameObject.name == "room03")
+        {
+            other.gameObject.SetActive(false);
+        }
+        else if (other.gameObject.tag == "room04" && this.gameObject.name == "room04")
+        {
+            other.gameObject.SetActive(false);
+        }
+        else if (other.gameObject.tag == "room05" && this.gameObject.name == "room05")
+        {
+            other.gameObject.SetActive(false);
+        }
+        else if (other.gameObject.tag == "room06" && this.gameObject.name == "room06")
+        {
+            other.gameObject.SetActive(false);
+        }
+        else if (other.gameObject.tag == "room07" && this.gameObject.name == "room07")
         {
             other.gameObject.SetActive(false);
         }

@@ -16,6 +16,7 @@ public class Changed : MonoBehaviour
 
     public GameObject[] jangGiMs;
     public GameObject[] robotMs;
+    public GameObject[] ferrisMs;
 
     Color color;
 
@@ -29,11 +30,19 @@ public class Changed : MonoBehaviour
                 color = Color.yellow;
             }
         }
-        if (GravityOn.Instance.selectRobot)
+        else if (GravityOn.Instance.selectRobot)
         {
             for (int i = 0; i < robotMs.Length; i++)
             {
                 robotMs[i].GetComponent<MeshRenderer>().material = yellow;
+                color = Color.yellow;
+            }
+        }
+        else if (GravityOn.Instance.selectFerris)
+        {
+            for (int i = 0; i < ferrisMs.Length; i++)
+            {
+                ferrisMs[i].GetComponent<MeshRenderer>().material = yellow;
                 color = Color.yellow;
             }
         }
@@ -48,11 +57,19 @@ public class Changed : MonoBehaviour
                 color = Color.green;
             }
         }
-        if (GravityOn.Instance.selectRobot)
+        else if (GravityOn.Instance.selectRobot)
         {
             for (int i = 0; i < robotMs.Length; i++)
             {
                 robotMs[i].GetComponent<MeshRenderer>().material = green;
+                color = Color.green;
+            }
+        }
+        else if (GravityOn.Instance.selectFerris)
+        {
+            for (int i = 0; i < ferrisMs.Length; i++)
+            {
+                ferrisMs[i].GetComponent<MeshRenderer>().material = green;
                 color = Color.green;
             }
         }
@@ -67,11 +84,19 @@ public class Changed : MonoBehaviour
                 color = Color.blue;
             }
         }
-        if (GravityOn.Instance.selectRobot)
+        else if (GravityOn.Instance.selectRobot)
         {
             for (int i = 0; i < robotMs.Length; i++)
             {
                 robotMs[i].GetComponent<MeshRenderer>().material = blue;
+                color = Color.blue;
+            }
+        }
+        else if (GravityOn.Instance.selectFerris)
+        {
+            for (int i = 0; i < ferrisMs.Length; i++)
+            {
+                ferrisMs[i].GetComponent<MeshRenderer>().material = blue;
                 color = Color.blue;
             }
         }
@@ -86,11 +111,19 @@ public class Changed : MonoBehaviour
                 color = new Color(255 / 255f, 125 / 255f, 200 / 255f);
             }
         }
-        if (GravityOn.Instance.selectRobot)
+        else if (GravityOn.Instance.selectRobot)
         {
             for (int i = 0; i < robotMs.Length; i++)
             {
                 robotMs[i].GetComponent<MeshRenderer>().material = pink;
+                color = new Color(255 / 255f, 125 / 255f, 200 / 255f);
+            }
+        }
+        else if (GravityOn.Instance.selectFerris)
+        {
+            for (int i = 0; i < ferrisMs.Length; i++)
+            {
+                ferrisMs[i].GetComponent<MeshRenderer>().material = pink;
                 color = new Color(255 / 255f, 125 / 255f, 200 / 255f);
             }
         }
@@ -106,12 +139,20 @@ public class Changed : MonoBehaviour
                 jangGiMs[i].GetComponent<MeshRenderer>().material.color = color;
             }
         }
-        if (GravityOn.Instance.selectRobot)
+        else if (GravityOn.Instance.selectRobot)
         {
             for (int i = 0; i < robotMs.Length; i++)
             {
                 robotMs[i].GetComponent<MeshRenderer>().material = taxture1;
                 robotMs[i].GetComponent<MeshRenderer>().material.color = color;
+            }
+        }
+        else if (GravityOn.Instance.selectFerris)
+        {
+            for (int i = 0; i < ferrisMs.Length; i++)
+            {
+                ferrisMs[i].GetComponent<MeshRenderer>().material = taxture1;
+                ferrisMs[i].GetComponent<MeshRenderer>().material.color = color;
             }
         }
     }
@@ -125,12 +166,20 @@ public class Changed : MonoBehaviour
                 jangGiMs[i].GetComponent<MeshRenderer>().material.color = color;
             }
         }
-        if (GravityOn.Instance.selectRobot)
+        else if (GravityOn.Instance.selectRobot)
         {
             for (int i = 0; i < robotMs.Length; i++)
             {
                 robotMs[i].GetComponent<MeshRenderer>().material = taxture2;
                 robotMs[i].GetComponent<MeshRenderer>().material.color = color;
+            }
+        }
+        else if (GravityOn.Instance.selectFerris)
+        {
+            for (int i = 0; i < ferrisMs.Length; i++)
+            {
+                ferrisMs[i].GetComponent<MeshRenderer>().material = taxture2;
+                ferrisMs[i].GetComponent<MeshRenderer>().material.color = color;
             }
         }
     }
@@ -144,12 +193,20 @@ public class Changed : MonoBehaviour
                 jangGiMs[i].GetComponent<MeshRenderer>().material.color = color;
             }
         }
-        if (GravityOn.Instance.selectRobot)
+        else if (GravityOn.Instance.selectRobot)
         {
             for (int i = 0; i < robotMs.Length; i++)
             {
                 robotMs[i].GetComponent<MeshRenderer>().material = taxture3;
                 robotMs[i].GetComponent<MeshRenderer>().material.color = color;
+            }
+        }
+        else if (GravityOn.Instance.selectFerris)
+        {
+            for (int i = 0; i < ferrisMs.Length; i++)
+            {
+                ferrisMs[i].GetComponent<MeshRenderer>().material = taxture3;
+                ferrisMs[i].GetComponent<MeshRenderer>().material.color = color;
             }
         }
     }
@@ -163,12 +220,20 @@ public class Changed : MonoBehaviour
                 jangGiMs[i].GetComponent<MeshRenderer>().material.color = color;
             }
         }
-        if (GravityOn.Instance.selectRobot)
+        else if (GravityOn.Instance.selectRobot)
         {
             for (int i = 0; i < robotMs.Length; i++)
             {
                 robotMs[i].GetComponent<MeshRenderer>().material = taxture4;
                 robotMs[i].GetComponent<MeshRenderer>().material.color = color;
+            }
+        }
+        else if (GravityOn.Instance.selectFerris)
+        {
+            for (int i = 0; i < ferrisMs.Length; i++)
+            {
+                ferrisMs[i].GetComponent<MeshRenderer>().material = taxture4;
+                ferrisMs[i].GetComponent<MeshRenderer>().material.color = color;
             }
         }
     }
